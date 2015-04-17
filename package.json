@@ -1,0 +1,53 @@
+{
+  "name": "directory-tree",
+  "version": "0.1.0",
+  "description": "Get the directory tree as recursive object, including absolute and relative paths",
+  "main": "./lib/",
+  "author": {
+    "name": "tobilg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobilg/directory-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tobilg/directory-tree/issues"
+  },
+  "dependencies": {
+    "lodash": "2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "2.0.x",
+    "chai": "1.9.x",
+    "jshint": "2.5.x"
+  },
+  "keywords": [
+    "directory",
+    "folder",
+    "tree",
+    "object",
+    "path",
+    "recursive",
+    "absolute",
+    "realtive"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/tobilg/directory-tree/raw/master/License"
+    }
+  ],
+  "homepage": "https://github.com/tobilg/directory-tree",
+  "maintainers": [
+    {
+      "name": "tobilg",
+      "email": "fb.tools.github@gmail.com"
+    }
+  ]
+}
