@@ -1,18 +1,18 @@
-# directory-tree
+# fs2obj
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/tobilg/directory-tree.png?branch=master)](http://travis-ci.org/tobilg/directory-tree)
-[![Dependency Status](https://david-dm.org/tobilg/directory-tree.png)](https://david-dm.org/tobilg/directory-tree)
+[![Build Status](https://secure.travis-ci.org/tobilg/fs2obj.png?branch=master)](http://travis-ci.org/tobilg/fs2obj)
+[![Dependency Status](https://david-dm.org/tobilg/fs2obj.png)](https://david-dm.org/tobilg/fs2obj)
 
 ## Basic usage
 
-### directoryTree( path [, options] )
+### fs2obj( path [, options] )
 
 To all the files and folder from a start folder and any sub-folders:
 
-	var directoryTree = require('directory-tree');
-	var structure = directoryTree('/path/to/folder');
+	var fs2obj = require('fs2obj');
+	var structure = fs2obj('/path/to/folder');
 
 Resulting object will look like:
 
@@ -65,7 +65,7 @@ A regular expression for what files to include. First matching group defines the
 Defaults to `/^(.+)\.js(on)?$/` (i.e. include all `.js` and `.json` files)
 
 	// Include all .js files except those starting with `_`
-	directoryTree('/path/to/folder', { filterFiles: /^([^_].*)\.js$/ });
+	fs2obj('/path/to/folder', { filterFiles: /^([^_].*)\.js$/ });
 
 ### filterFolders
 
@@ -73,7 +73,7 @@ A regular expression for what folders to iterate into. First matching group defi
 Defaults to `/^([^\.].*)$/` (i.e. process all folders except those beginning with `.`)
 
 	// Process all folders except those starting with `.` or `_`
-	directoryTree('/path/to/folder', { filterFolders: /^([^\._].*)$/ });
+	fs2obj('/path/to/folder', { filterFolders: /^([^\._].*)$/ });
 
 ### includeBasePath
 
@@ -89,4 +89,4 @@ Use `npm test` to run the tests.
 
 ## Issues
 
-If you discover a bug, please raise an issue on Github. https://github.com/tobilg/directory-tree/issues
+If you discover a bug, please raise an issue on Github. https://github.com/tobilg/fs2obj/issues

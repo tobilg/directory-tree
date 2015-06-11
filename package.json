@@ -1,5 +1,5 @@
 {
-  "name": "directory-tree",
+  "name": "fs2obj",
   "version": "0.1.0",
   "description": "Get the directory tree as recursive object, including absolute and relative paths",
   "main": "./lib/",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobilg/directory-tree.git"
+    "url": "https://github.com/tobilg/fs2obj.git"
   },
   "bugs": {
-    "url": "https://github.com/tobilg/directory-tree/issues"
+    "url": "https://github.com/tobilg/fs2obj/issues"
   },
   "dependencies": {
     "lodash": "2.4.1"
@@ -23,13 +23,19 @@
   },
   "keywords": [
     "directory",
+	"files",
+	"file",
     "folder",
     "tree",
     "object",
     "path",
     "recursive",
     "absolute",
-    "realtive"
+    "relative",
+	"filesystem",
+	"fs2obj",
+	"read",
+	"recurse"
   ],
   "scripts": {
     "test": "make test"
@@ -40,10 +46,10 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/tobilg/directory-tree/raw/master/License"
+      "url": "http://github.com/tobilg/fs2obj/raw/master/License"
     }
   ],
-  "homepage": "https://github.com/tobilg/directory-tree",
+  "homepage": "https://github.com/tobilg/fs2obj",
   "maintainers": [
     {
       "name": "tobilg",

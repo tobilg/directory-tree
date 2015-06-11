@@ -1,4 +1,4 @@
-var directoryTree = require('../lib/');
+var fs2obj = require('../lib/');
 
-var modules = directoryTree('./test/exampleFolder');
+var modules = fs2obj('./test/exampleFolder');
 console.log(JSON.stringify(modules));

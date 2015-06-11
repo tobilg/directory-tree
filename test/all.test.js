@@ -7,7 +7,7 @@
 var chai = require('chai'),
     expect = chai.expect,
     pathModule = require('path'),
-    requireDirectoryTree = require('../lib/');
+    requireFs2obj = require('../lib/');
 
 // init
 chai.config.includeStack = true;
@@ -18,7 +18,7 @@ var path = pathModule.join(__dirname, './exampleFolder');
 
 describe('default', function() {
     it('reads whole tree', function() {
-        var tree = requireDirectoryTree(path);
+        var tree = requireFs2obj(path);
 
         expect(tree).to.deep.equal({
             "items": [
