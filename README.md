@@ -18,40 +18,35 @@ Resulting object will look like:
 
 ```
 {
-    "items": [
-        {
-            "name": "file1.js",
-            "type": "file"
-        },
-        {
-            "name": "file2.conf",
-            "type": "file"
-        },
-        {
-            "name": "file3.txt",
-            "type": "file"
-        },
-        {
-            "items": [
-                {
-                    "name": "test1-file.txt",
-                    "type": "file"
-                },
-                {
-                    "items": [
-                        {
-                            "name": "subtest-file1.txt",
-                            "type": "file"
-                        }
-                    ],
-                    "name": "subtest1",
-                    "type": "folder"
-                }
-            ],
-            "name": "test1",
+    "items": [{
+        "name": "file1.js",
+        "type": "file",
+        "size": 0
+    }, {
+        "name": "file2.conf",
+        "type": "file",
+        "size": 0
+    }, {
+        "name": "file3.txt",
+        "type": "file",
+        "size": 15
+    }, {
+        "items": [{
+            "name": "test1-file.txt",
+            "type": "file",
+            "size": 0
+        }, {
+            "items": [{
+                "name": "subtest-file1.txt",
+                "type": "file",
+                "size": 0
+            }],
+            "name": "subtest1",
             "type": "folder"
-        }
-    ]
+        }],
+        "name": "test1",
+        "type": "folder"
+    }]
 }
 ```
 
