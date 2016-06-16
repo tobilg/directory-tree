@@ -1,6 +1,6 @@
 {
   "name": "fs2obj",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Get the directory tree as recursive object, including absolute and relative paths",
   "main": "./lib/",
   "author": {
@@ -14,7 +14,7 @@
     "url": "https://github.com/tobilg/fs2obj/issues"
   },
   "dependencies": {
-    "lodash": "2.4.1"
+    "lodash": "4.13.1"
   },
   "devDependencies": {
     "mocha": "2.0.x",
