@@ -1,2 +1,4 @@
-test
-README.md
+test/
+.idea/
+.travis.yml
+.jshintrc
