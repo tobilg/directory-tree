@@ -1,6 +1,6 @@
 {
   "name": "fs2obj",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Get the directory tree as recursive object, including absolute and relative paths",
   "main": "./lib/",
   "author": {
@@ -17,14 +17,14 @@
     "lodash": ">=4.17.5"
   },
   "devDependencies": {
-    "mocha": "2.0.x",
-    "chai": "1.9.x",
-    "jshint": "2.5.x"
+    "mocha": "^5.2.0",
+    "chai": "^4.2.0",
+    "jshint": "^2.9.7"
   },
   "keywords": [
     "directory",
-	"files",
-	"file",
+    "files",
+    "file",
     "folder",
     "tree",
     "object",
@@ -32,13 +32,13 @@
     "recursive",
     "absolute",
     "relative",
-	"filesystem",
-	"fs2obj",
-	"read",
-	"recurse"
+    "filesystem",
+    "fs2obj",
+    "read",
+    "recurse"
   ],
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   },
   "engines": {
     "node": ">=0.10.0"
